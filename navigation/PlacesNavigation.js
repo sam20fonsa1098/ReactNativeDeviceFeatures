@@ -19,9 +19,6 @@ const PlacesNavigator = createStackNavigator({
     },
     PlaceDetails: {
         screen: PlaceDetailsScreen,
-        navigationOptions: {
-            headerTitle: "Details",
-        }
     },
     NewPlace: {
         screen: NewPlaceScreen,
